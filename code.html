@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kite Lover - Family-Friendly Kite Fun!</title>
+    <style>
+        body { font-family: 'Comic Sans MS', cursive, sans-serif; margin: 0; padding: 0; background-color: #e0f7ff; color: #333; }
+        header { background: linear-gradient(to right, #87ceeb, #00bfff); color: white; text-align: center; padding: 30px; }
+        .hero { background-image: url('https://via.placeholder.com/1200x400?text=Family+Flying+Kites'); background-size: cover; height: 300px; display: flex; align-items: center; justify-content: center; color: white; font-size: 2em; text-shadow: 2px 2px 4px rgba(0,0,0,0.5); }
+        .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+        .products { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+        .product { background: white; padding: 15px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); text-align: center; border: 2px solid #ffeb3b; }
+        .product img { max-width: 100%; height: 150px; object-fit: cover; border-radius: 5px; }
+        .price { font-weight: bold; color: #28a745; font-size: 1.2em; }
+        .badge { background: #ffeb3b; color: #333; padding: 5px; border-radius: 5px; font-size: 0.8em; }
+        section { margin: 40px 0; }
+        form { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        input, textarea { width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 5px; }
+        button { background: #007bff; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; }
+        button:hover { background: #0056b3; }
+        footer { background-color: #333; color: white; text-align: center; padding: 20px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Kite Lover - Fun for the Whole Family!</h1>
+        <p>All times OK for safe kite flying! Discover kites, monokites, and premium manjha for family adventures.</p>
+    </header>
+    
+    <div class="hero">
+        <p>Let's Fly High Together!</p>
+    </div>
+    
+    <div class="container">
+        <section id="products">
+            <h2>Our Family-Friendly Products (Prices up to 600)</h2>
+            <div class="products">
+                <div class="product">
+                    <img src="https://via.placeholder.com/250x150?text=Monokite" alt="Monokite">
+                    <h3>Monokite</h3>
+                    <p>Easy-to-fly single-line kite, perfect for kids and families. <span class="badge">Family-Safe</span></p>
+                    <p class="price">₹550</p>
+                    <button>Buy Now</button>
+                </div>
+                <div class="product">
+                    <img src="https://via.placeholder.com/250x150?text=Monogold+Manjha" alt="Monogold Manjha">
+                    <h3>Monogold Manjha</h3>
+                    <p>Shiny, durable kite string for exciting flights. Great for family competitions!</p>
+                    <p class="price">₹400</p>
+                    <button>Buy Now</button>
+                </div>
+                <div class="product">
+                    <img src="https://via.placeholder.com/250x150?text=Monokitefiter" alt="Monokitefiter">
+                    <h3>Monokitefiter</h3>
+                    <p>Accessory to fit and repair monokites. Fun DIY for family bonding.</p>
+                    <p class="price">₹350</p>
+                    <button>Buy Now</button>
+                </div>
+                <div class="product">
+                    <img src="https://via.placeholder.com/250x150?text=Company+Manjha+Set" alt="Company Manjha Set">
+                    <h3>Company Manjha Set</h3>
+                    <p>Complete branded set of kite strings for all-day fun. Up to 600 for premium packs!</p>
+                    <p class="price">₹600</p>
+                    <button>Buy Now</button>
+                </div>
+                <div class="product">
+                    <img src="https://via.placeholder.com/250x150?text=Kite+Starter+Kit" alt="Kite Starter Kit">
+                    <h3>Kite Starter Kit</h3>
+                    <p>Beginner kit with kite, manjha, and tips. Ideal for family outings.</p>
+                    <p class="price">₹500</p>
+                    <button>Buy Now</button>
+                </div>
+                <!-- Add more as needed -->
+            </div>
+        </section>
+        
+        <section id="about">
+            <h2>About Kite Lover</h2>
+            <p>We're a family-run business passionate about bringing joy through kite flying. Our products are designed for safe, all-ages fun—whether it's a sunny afternoon or evening breeze. Join our community of kite lovers!</p>
+        </section>
+        
+        <section id="tips">
+            <h2>Kite Flying Tips for Families</h2>
+            <ul>
+                <li><strong>For Kids:</strong> Start with simple monokites and supervise closely.</li>
+                <li><strong>Safety First:</strong> Use strong manjha, avoid power lines, and fly in open areas.</li>
+                <li><strong>Family Fun:</strong> Organize picnics with kite competitions—great for bonding!</li>
+                <li><strong>All Times OK:</strong> Fly during safe weather; our products work anytime.</li>
+            </ul>
+        </section>
+        
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form action="#" method="post">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Message (e.g., custom order)" rows="5" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </div>
+    
+    <footer>
+        <p>&copy; 2023 Kite Lover. Best family-friendly kite site! Contact us for more fun ideas.</p>
+    </footer>
+</body>
+</html>
